@@ -1,13 +1,66 @@
-.purple {
-  /* TODO: Add some style definitions for the purple class in here... */
-}
+body {
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+width: 90%;
+margin-left: 0;
+margin-right: 0;
+margin: 0 auto;
+text-align: center;}
 
-/* #answer-display will have black text on a white background.
-   Hovering the mouse over it will reveal the text */
+h1 {
+	font-family: 'Vidaloka', serif;
+	padding-top: 5%;
+	font-size: 50px;
+}
 #answer-display {
-  background-color: #000;
+  width: 50%;
+  margin-left: 0;
+	margin-right: 0;
+	margin: 0 auto;
+  background-color: #eee;
+	color: #eee;
+	transition: all .5s ease;
 }
 
 #answer-display:hover {
-  color: #fff;
+  color: #000;
+}
+#results-area {
+	padding: 20px;
+}
+
+#question-display {
+	padding: 20px;
+		font-family: 'Vidaloka', serif;
+    font-size: 30px;
+}
+
+.purple {
+	color: purple;
+	font-size: 20px;
+	line-height: 60px;
+}
+
+button {
+	border: 1px solid black;
+	background: white;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+    padding: 20px 40px 20px 40px;
+	font-size: 20px;
+	transition: all .5s ease;
+}
+
+button:hover {
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+
+#txt {
+	text-align: right;
+	margin-top: 20px;
+}
+
+img {
+	width: 20%;
+	margin: 0 auto;
 }
